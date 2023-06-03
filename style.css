@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Geologica', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem  9rem;
+}
+ul {
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: gray;
+}
+li input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.freedom-box1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9rem;
+    border-bottom: 2px solid gray;
+}
+.box-1 img {
+    width: 600px;
+}
+.text {
+    font-size: 40px;
+    font-weight: 700;
+}
+.text-box {
+    width: 90%;
+    margin: 3rem 0;
+    padding-left: 2rem;
+    line-height: 25px;
+    border-left: 2px solid gray;
+    color: gray;
+}
+.btn {
+    padding: .8rem 2rem;
+    border: none;
+    background-color: red;
+    color: aliceblue;
+    font-weight: 600;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: .8;
+}
+.row-box{
+   width: 60vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.row-block{
+    display: flex;
+    width: 230px;
+}
+.row-container{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.row-block a{
+    color: rgb(226, 78, 78);
+    font-weight: 600;
+    text-decoration: none;
+    display: inline;
+}
+.buy-img img{
+    width: 400px;
+    display: flex;
+    
+}
+.buy-con{
+    display: flex;
+    width: 60vw;
+    margin: 40px 20vw;
+}
+.buy-box{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+.boxx1{
+    display: flex;
+    width: 282px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.boxx2{
+    border-left: 2px solid gray;
+    width: 350px;
+    padding-left: 30px;
+    font-size: 13px;
+    color: darkgrey;
+    font-weight: 1;
+}
+.boxx2{
+    display: flex;
+}
+.butn{
+    border: 0;
+    background-color:rgb(226, 78, 78);
+    font-weight: 700;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 12px;
+    transition: .5s;
+    cursor: pointer;
+}
+.butn:hover{
+    opacity: .8;
+}
+.run-con{
+    background-image: url(./image/runners.jpg);
+    width: 98.7vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.run-box{
+    margin: 0 0 0 55vw;
+    color: white;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+.bor{
+    padding-left: 40px;
+    border-left: 2px solid white;
+    width: 400px;
+}
+.par1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.run-btn{
+    padding: 5px 15px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(226, 78, 78);
+    border: none;
+    transition: .3s;
+    width: 155px;
+    height: 35px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.run-btn:hover{
+    opacity: 0.7;
+}
